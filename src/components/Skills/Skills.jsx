@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-    { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Three.js", "Framer Motion"] },
-    { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "GraphQL", "Redis"] },
-    { category: "Tools", items: ["Git", "Docker", "AWS", "Figma", "Vite"] },
+    { category: "Frontend", items: ["React", "JavaScript (ES6+)", "Tailwind CSS", "HTML5 & CSS3", "Framer Motion"] },
+    { category: "Tools & Build", items: ["Git", "GitHub", "Vite", "Vercel", "npm / yarn"] },
+    { category: "Interests", items: ["3D Web Views", "UI/UX Design", "API Integration", "Creative Coding"] },
 ];
 
 const Skills = () => {
