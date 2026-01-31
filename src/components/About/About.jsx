@@ -61,8 +61,8 @@ const About = () => {
                     </motion.div>
 
                     <div className="grid grid-cols-3 gap-4">
-                        <StatCard icon={Code} value={profile?.public_repos || "10+"} label="Repos" delay={0.2} />
-                        <StatCard icon={Globe} value={profile?.followers || "50+"} label="Followers" delay={0.3} />
+                        <StatCard icon={Code} value={profile?.public_repos} label="Repos" delay={0.2} />
+                        <StatCard icon={Globe} value={profile?.followers} label="Followers" delay={0.3} />
                         <StatCard icon={Database} value="3+" label="Years" delay={0.4} />
                     </div>
                 </div>
