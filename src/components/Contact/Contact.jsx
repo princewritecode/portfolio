@@ -25,14 +25,11 @@ const Contact = () => {
                 </a>
 
                 <div className="flex justify-center gap-8">
-                    <a href="#" className="text-secondary hover:text-accent-cyan transition-colors transform hover:scale-110">
+                    <a href="https://github.com/princewritecode" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent-cyan transition-colors transform hover:scale-110">
                         <Github size={24} />
                     </a>
-                    <a href="#" className="text-secondary hover:text-accent-cyan transition-colors transform hover:scale-110">
+                    <a href="https://www.linkedin.com/in/prince-patel-71b166217/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent-cyan transition-colors transform hover:scale-110">
                         <Linkedin size={24} />
-                    </a>
-                    <a href="#" className="text-secondary hover:text-accent-cyan transition-colors transform hover:scale-110">
-                        <Twitter size={24} />
                     </a>
                 </div>
             </motion.div>
