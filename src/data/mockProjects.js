@@ -4,7 +4,7 @@ export const mockProjects = [
         name: "movieapp",
         description: "A modern movie discovery application with search, filtering, and detailed movie information. Built with React and integrated with TMDB API.",
         html_url: "https://github.com/princewritecode/movieapp",
-        homepage: "https://movieapp-prince.vercel.app",
+        homepage: "https://movieapp-jade-alpha.vercel.app",
         language: "JavaScript",
         stargazers_count: 15,
         forks_count: 3,
