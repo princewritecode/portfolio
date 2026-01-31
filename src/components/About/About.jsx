@@ -53,10 +53,10 @@ const About = () => {
                             About Me
                         </h2>
                         <p className="text-secondary leading-relaxed">
-                            I specialize in building exceptional digital experiences. Currently, I'm focused on accessible, human-centered products. I love turning complex problems into simple, beautiful, and intuitive designs.
+                            {profile?.bio || "A passionate and enthusiastic programmer, having an appetite to learn and explore new things. Interested in full-time opportunities as a Software Engineer."}
                         </p>
                         <p className="text-secondary leading-relaxed mt-4">
-                            {profile?.bio || "Passionate developer exploring new technologies and building cool stuff."}
+                            Based in Indore, India, I specialize in building exceptional digital experiences with modern web technologies. My journey includes working with companies like Brightchamps, Codingal, and Infosys, where I honed my skills in creating accessible, human-centered products.
                         </p>
                     </motion.div>
 
