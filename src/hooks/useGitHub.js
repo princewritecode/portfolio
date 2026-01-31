@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { fetchGitHubProfile, fetchGitHubRepos } from '../utils/github';
+import { fallbackProfile } from '../data/fallbackProfile';
 
 export const useGitHub = (username) => {
-    const [profile, setProfile] = useState(null);
+    const [profile, setProfile] = useState(fallbackProfile);
     const [repos, setRepos] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -23,6 +24,8 @@ export const useGitHub = (username) => {
                 setRepos(reposData);
             } catch (err) {
                 setError(err);
+                // Keep fallback profile data on error
+                setProfile(fallbackProfile);
             } finally {
                 setLoading(false);
             }
